@@ -6,11 +6,11 @@ const Infobar=({room})=>(
 
     <div className='infoBar'>
         <div className='leftInnerContainer'>
-            <img className='onlineIcon' src={onlineIcon} alt='online icon'/>
+            <img className='onlineIcon' src={onlineIcon} alt="onlineImage"/>
             <h3>{room}</h3>
         </div>
         <div className='rightInnerContainer'>
-            <a href='/'><img src={closeIcon} alt='close image'/></a>
+            <a href='/'><img src={closeIcon} alt="closeImage"/></a>
         </div>
 
     </div>
